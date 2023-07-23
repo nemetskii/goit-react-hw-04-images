@@ -9,7 +9,7 @@ import { Loader } from './Loader/Loader';
 export const App = () => {
   const [searchQuery, setSearchQuery] = useState('');
   const [imagesData, setImagesData] = useState([]);
-  const [totalHits, setTotalHits] = useState(0);
+  const [, setTotalHits] = useState(0);
   const [loadMoreVisible, setLoadMoreVisible] = useState(false);
   const [page, setPage] = useState(1);
   const [loaderVisible, setLoaderVisible] = useState(false);
